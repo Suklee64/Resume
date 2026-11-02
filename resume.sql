@@ -139,29 +139,29 @@ INSERT INTO data_source (data_source_id, role_id, name) VALUES
 
 INSERT INTO responsibility (responsibility_id, role_id, description) VALUES
     -- Hughes Network Systems: Sr Principal Data Science Specialist (role 1, current)
-    (1,  1, 'Own the end-to-end analytics and visualization of operational data across the consumer business, integrating DSS order, Install Portal, Salesforce Customer Care, billing/account, engineering network, and SAP part supply and procurement data'),
+    (1,  1, 'Set the enterprise data and analytics strategy for Consumer Operations, owning the end-to-end integration and visualization of operational data across DSS order, Install Portal, Salesforce Customer Care, billing/account, engineering network, and SAP part supply and procurement'),
     (2,  1, 'Design and build customized ETL pipelines in Tableau Prep and publish interactive Tableau dashboards consumed organization-wide for daily, weekly, and monthly operational reporting'),
     (3,  1, 'Develop and maintain internal KPIs and trend analytics that measure operational health and support Marketing, Sales, and Quality teams'),
     (4,  1, 'Deliver insights that drive quality control, new product development, churn reduction, and new product line initiatives'),
-    (5,  1, 'Serve as analytics partner to stakeholders across the organization, translating broad data sources into decision-ready visual content'),
+    (5,  1, 'Act as the organization-wide authority on operational analytics, advising leadership and mentoring teams while translating broad, disparate data sources into decision-ready visual content'),
     (36, 1, 'Architected and developed AI agents using Kiro IDE and the n8n automation platform to ingest unstructured data from multiple external websites, normalize it, and persist it as structured datasets in Google Cloud Platform (GCP)'),
     (37, 1, 'Designed and implemented end-to-end automated workflows in n8n that trigger downstream actions based on the collected and structured data, reducing manual effort and accelerating operational response'),
     (38, 1, 'Engineered a unified, best-practice data workflow that consolidates multiple operational data sources (Install Portal, Billing, Order, Salesforce Customer Care) into a single conversational AI agent, enabling natural-language answers to operations questions across the business'),
-    -- Principal Data Science Specialist (role 2)
-    (6,  2, 'Integrated and analyzed operational data from DSS order, Install Portal, Salesforce Customer Care, billing/account, engineering network, and SAP part supply and procurement sources'),
-    (7,  2, 'Built customized ETL in Tableau Prep and published Tableau dashboards used across the organization for daily, weekly, and monthly operations'),
-    (8,  2, 'Developed internal KPIs and operational-health trend reporting to support Marketing, Sales, and Quality'),
-    (9,  2, 'Provided insights supporting quality control, churn reduction, and new product development'),
-    -- Sr Staff Specialist (role 3)
-    (10, 3, 'Consolidated operational data from order, install, customer care, billing, engineering network, and SAP supply chain systems for analysis'),
-    (11, 3, 'Developed customized ETL and Tableau visualizations published for organization-wide operational reporting'),
-    (12, 3, 'Created and maintained KPIs to monitor operational performance and trends'),
-    (13, 3, 'Supported Marketing, Sales, and Quality teams with actionable analytics'),
-    -- Staff Specialist (role 4)
-    (14, 4, 'Analyzed operational data from order, install, customer care, billing, and engineering network systems'),
-    (15, 4, 'Built ETL processes and Tableau dashboards to visualize operational metrics for internal stakeholders'),
-    (16, 4, 'Developed foundational KPIs and recurring trend reports to track operational health'),
-    (17, 4, 'Supported Marketing, Sales, and Quality functions with data-driven insights'),
+    -- Principal Data Science Specialist (role 2) -- expert / lead: drives strategy, mentors, cross-functional partner
+    (6,  2, 'Led the operational analytics function across Consumer Operations, setting direction for how order, install, customer care, billing, engineering network, and SAP supply-chain data were integrated and analyzed'),
+    (7,  2, 'Defined ETL and dashboard standards in Tableau Prep and Tableau, mentoring analysts and ensuring consistent, reusable data pipelines published organization-wide'),
+    (8,  2, 'Partnered with Marketing, Sales, and Quality leadership to translate business questions into KPI frameworks and trend analytics that guided operational decisions'),
+    (9,  2, 'Drove data-informed initiatives in quality control, churn reduction, and new product development, influencing cross-functional priorities'),
+    -- Sr Staff Specialist (role 3) -- experienced professional: designs recurring solutions, owns KPIs
+    (10, 3, 'Designed and owned end-to-end analytics solutions integrating operational data from order, install, customer care, billing, engineering network, and SAP supply-chain systems'),
+    (11, 3, 'Developed standardized, reusable ETL and Tableau visualizations published for organization-wide operational reporting'),
+    (12, 3, 'Established and maintained a suite of KPIs to monitor operational performance and surface trends proactively'),
+    (13, 3, 'Delivered actionable analytics that Marketing, Sales, and Quality teams relied on for recurring operational reviews'),
+    -- Staff Specialist (role 4) -- entry professional: executes, builds, supports requests
+    (14, 4, 'Prepared and analyzed operational data from order, install, customer care, billing, and engineering network systems to fulfill reporting needs'),
+    (15, 4, 'Built ETL routines and Tableau dashboards to visualize operational metrics for internal stakeholders'),
+    (16, 4, 'Developed foundational KPIs and recurring trend reports to track day-to-day operational health'),
+    (17, 4, 'Supported Marketing, Sales, and Quality teams by responding to data and reporting requests with accurate, timely analysis'),
     -- Tata Consultancy Services (role 5)
     (18, 5, 'Analysis and documenting the Functional Requirements & Technical Documentation'),
     (19, 5, 'Designing the visual reporting tool acquiring data from multiple data sources'),

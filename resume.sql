@@ -149,9 +149,11 @@ INSERT INTO responsibility (responsibility_id, role_id, description) VALUES
     (38, 1, 'Engineered a unified, best-practice data workflow that consolidates multiple operational data sources (Install Portal, Billing, Order, Salesforce Customer Care) into a single conversational AI agent, enabling natural-language answers to operations questions across the business'),
     -- Principal Data Science Specialist (role 2) -- expert / lead: drives strategy, mentors, cross-functional partner
     (6,  2, 'Led the operational analytics function across Consumer Operations, setting direction for how order, install, customer care, billing, engineering network, and SAP supply-chain data were integrated and analyzed'),
+    (39, 2, 'Served as the key liaison between business and IT/engineering, translating business operational requirements into technical data specifications and, in turn, communicating engineering and system constraints back to business stakeholders'),
+    (40, 2, 'Partnered with IT and engineering teams on data architecture, source-system integration, and data-quality governance to ensure analytics accurately reflected underlying operational systems'),
     (7,  2, 'Defined ETL and dashboard standards in Tableau Prep and Tableau, mentoring analysts and ensuring consistent, reusable data pipelines published organization-wide'),
     (8,  2, 'Partnered with Marketing, Sales, and Quality leadership to translate business questions into KPI frameworks and trend analytics that guided operational decisions'),
-    (9,  2, 'Drove data-informed initiatives in quality control, churn reduction, and new product development, influencing cross-functional priorities'),
+    (9,  2, 'Drove data-informed initiatives in quality control, churn reduction, and new product development, bridging business priorities with engineering execution'),
     -- Sr Staff Specialist (role 3) -- experienced professional: designs recurring solutions, owns KPIs
     (10, 3, 'Designed and owned end-to-end analytics solutions integrating operational data from order, install, customer care, billing, engineering network, and SAP supply-chain systems'),
     (11, 3, 'Developed standardized, reusable ETL and Tableau visualizations published for organization-wide operational reporting'),

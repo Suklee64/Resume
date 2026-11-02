@@ -56,7 +56,7 @@ sqlite3 resume.db "SELECT c.name, r.department, r.title, r.start_date, r.end_dat
 
 ## Summary
 
-- **5 companies**, **8 roles**, **38 responsibility items**, **13 tool entries**, **40 data-source entries**
+- **5 companies**, **8 roles**, **40 responsibility items**, **13 tool entries**, **40 data-source entries**
 - Date range: June 2000 – Present
 - Current role: Sr Principal Data Science Specialist, Consumer Operations, Hughes Network Systems
 - Primary tools: Tableau Desktop, Tableau Prep (customized ETL + published visual content); Kiro IDE and n8n for AI-agent development and workflow automation

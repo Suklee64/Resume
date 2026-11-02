@@ -56,10 +56,10 @@ sqlite3 resume.db "SELECT c.name, r.department, r.title, r.start_date, r.end_dat
 
 ## Summary
 
-- **5 companies**, **8 roles**, **35 responsibility items**, **11 tool entries**, **38 data-source entries**
+- **5 companies**, **8 roles**, **38 responsibility items**, **13 tool entries**, **40 data-source entries**
 - Date range: June 2000 – Present
 - Current role: Sr Principal Data Science Specialist, Consumer Operations, Hughes Network Systems
-- Primary tools: Tableau Desktop, Tableau Prep (customized ETL + published visual content)
+- Primary tools: Tableau Desktop, Tableau Prep (customized ETL + published visual content); Kiro IDE and n8n for AI-agent development and workflow automation
 - Key data sources at Hughes: DSS Order, Install Portal, Salesforce Customer Care, Billing & Account,
   Engineering Network, SAP Part Supply, Procurement, Oracle DB, Google Cloud Platform (GCP), Tableau Data Sources
 - Education: MBA, Thunderbird School of Global Management (2006–2008)
